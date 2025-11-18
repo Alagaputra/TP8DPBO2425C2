@@ -64,6 +64,7 @@ Tujuan dibuatnya aplikasi ini adalah untuk memahami konsep pemisahan logic dan t
 
 # Struktur Folder (Arsitektur MVC)
 
+
 app/
 │
 ├── config/
@@ -93,6 +94,40 @@ app/
 └── public/
     ├── index.php             (Router utama)
     └── assets/               (CSS / JS / Bootstrap)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -------------------------------------------------------------
 
