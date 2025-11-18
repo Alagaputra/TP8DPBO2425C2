@@ -2,7 +2,6 @@
 
 /saya Ajipati Alaga Putra dengan NIM 2409682 mengerjakan TP8 dalam mata kuliah DPBO untuk keberkahannya maka saya tidak akan melakukan kecurangan sepertu yang telah di spesifikasikan Aamiin./
 
-```
 # Lecturer & Course Management System (Native PHP – MVC)
 
 Aplikasi ini adalah sistem manajemen data **Lecturers** dan **Courses** yang dibuat menggunakan **Native PHP** dengan arsitektur **MVC (Model–View–Controller)**.  
