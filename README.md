@@ -62,74 +62,6 @@ Tujuan dibuatnya aplikasi ini adalah untuk memahami konsep pemisahan logic dan t
 
 -------------------------------------------------------------
 
-# Struktur Folder (Arsitektur MVC)
-
-
-app/
-│
-├── config/
-│   └── connection.php        (Koneksi database)
-│
-├── controllers/              (Mengatur alur aplikasi)
-│   ├── LecturersController.php
-│   └── CoursesController.php
-│
-├── models/                   (Query database)
-│   ├── Lecturer.php
-│   └── Course.php
-│
-├── views/
-│   ├── lecturers/            (Halaman modul Lecturers)
-│   │   ├── index.php
-│   │   ├── create.php
-│   │   ├── edit.php
-│   │   └── delete.php
-│   │
-│   ├── courses/              (Halaman modul Courses)
-│       ├── index.php
-│       ├── create.php
-│       ├── edit.php
-│       └── delete.php
-│
-└── public/
-    ├── index.php             (Router utama)
-    └── assets/               (CSS / JS / Bootstrap)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--------------------------------------------------------------
 
 # Struktur Database
 
@@ -145,61 +77,8 @@ TABLE: courses
 - name (VARCHAR)
 - sks (INT)
 
-
-
-+-----------------------+
-|       Lecturer        |
-+-----------------------+
-| - conn                |
-| - table               |
-+-----------------------+
-| + all()               |
-| + find(id)            |
-| + create(data)        |
-| + update(data)        |
-| + delete(id)          |
-+-----------------------+
-
-+-----------------------+
-|        Course         |
-+-----------------------+
-| - conn                |
-| - table               |
-+-----------------------+
-| + all()               |
-| + find(id)            |
-| + create(data)        |
-| + update(data)        |
-| + delete(id)          |
-+-----------------------+
-
-+--------------------------------+
-|    LecturersController         |
-+--------------------------------+
-| - lecturer (Model instance)    |
-+--------------------------------+
-| + index()                      |
-| + create()                     |
-| + store()                      |
-| + edit()                       |
-| + update()                     |
-| + delete()                     |
-+--------------------------------+
-
-+--------------------------------+
-|    CoursesController            |
-+--------------------------------+
-| - course (Model instance)       |
-+--------------------------------+
-| + index()                       |
-| + create()                      |
-| + store()                       |
-| + edit()                        |
-| + update()                      |
-| + delete()                      |
-+--------------------------------+
-
 -------------------------------------------------------------
+
 
 # Alur CRUD (Contoh Lecture)
 
@@ -216,4 +95,4 @@ controller.update() → model.update() → redirect
 ## Delete
 controller.delete() → model.delete() → redirect
 
-##Dokumentasi
+## Dokumentasi
