@@ -95,4 +95,8 @@ controller.update() → model.update() → redirect
 ## Delete
 controller.delete() → model.delete() → redirect
 
+-------------------------------------------------------------
+
 ## Dokumentasi
+https://github.com/user-attachments/assets/ab1a7daf-15d5-409d-b4bf-116722f59b1c
+
